@@ -1,6 +1,7 @@
 from django.contrib import admin
-from .models import Employees, Salaries, Position
+from .models import Employee, Salary, Position, PayrollPeriod
 
-admin.site.register(Employees)
-admin.site.register(Salaries)
+admin.site.register(Employee)
+admin.site.register(Salary)
 admin.site.register(Position)
+admin.site.register(PayrollPeriod)
